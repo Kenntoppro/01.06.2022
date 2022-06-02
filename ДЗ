@@ -1,0 +1,18 @@
+Задача  №1
+def welcome_message():
+    name = input()
+    print("Добро пожаловать,", name + '.')
+
+welcome_message()
+
+Задача №2
+password = str(input('Введите пароль: '))
+repeat = str(input('Введите повторно пароль: '))
+
+def validate(text1, text2):
+    if password == repeat:
+        print("Правильно")
+    else:
+        print("Не правильно")
+
+validate(password, repeat)
